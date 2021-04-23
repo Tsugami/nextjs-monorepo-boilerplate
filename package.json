@@ -1,7 +1,12 @@
 {
-  "name": "root",
+  "name": "uneve-app",
   "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "linter": "yarn workspace @uneve/eslint-config"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "@uneve/eslint-config": "*"
   }
 }
