@@ -11,7 +11,9 @@
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.23.2"
+    "eslint-plugin-react": "^7.23.2",
+    "prettier": "^2.2.1"
   }
 }
