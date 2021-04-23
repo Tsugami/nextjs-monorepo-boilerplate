@@ -18,7 +18,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'prettier'],
+  plugins: ['react', '@typescript-eslint', 'prettier', 'better-styled-components'],
   rules: {
     'prettier/prettier': 'error',
     'react/react-in-jsx-scope': 'off',
