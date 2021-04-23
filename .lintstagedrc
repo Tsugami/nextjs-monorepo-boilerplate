@@ -1,0 +1,6 @@
+{
+   "*": [
+      "eslint --fix",
+      "git add"
+    ]
+}
