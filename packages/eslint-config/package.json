@@ -1,5 +1,5 @@
 {
-  "name": "@uneve/eslint-config",
+  "name": "@nextjs-monorepo/eslint-config",
   "version": "1.0.0",
   "main": ".eslintrc.js",
   "license": "MIT",

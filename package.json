@@ -1,5 +1,5 @@
 {
-  "name": "uneve-app",
+  "name": "nextjs-monorepo",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -7,8 +7,8 @@
   "scripts": {
     "prepare": "husky install",
     "postinstall": "husky install",
-    "linter": "yarn workspace @uneve/eslint-config",
-    "client-web": "yarn workspace @uneve/client-web",
+    "linter": "yarn workspace @nextjs-monorepo/eslint-config",
+    "client-web": "yarn workspace @nextjs-monorepo/client-web",
     "run:eslint": "eslint --fix packages",
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "lerna run build --stream",
@@ -17,15 +17,16 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
+    "@nextjs-monorepo/eslint-config": "*",
     "@types/node": "^14.14.41",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "@types/styled-components": "^5.1.9",
-    "@uneve/eslint-config": "*",
     "eslint": "^7.24.0",
     "husky": "^6.0.0",
     "lerna": "^4.0.0",
-    "lint-staged": "^10.5.4"
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
   },
   "dependencies": {
     "react": "^17.0.2",
