@@ -7,7 +7,10 @@
   "scripts": {
     "linter": "yarn workspace @uneve/eslint-config",
     "client-web": "yarn workspace @uneve/client-web",
-    "run:eslint": "eslint --fix packages"
+    "run:eslint": "eslint --fix packages",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "build": "lerna run build --stream",
+    "dev": "lerna run dev --stream"
   },
   "devDependencies": {
     "@types/node": "^14.14.41",
