@@ -1,6 +1,5 @@
 {
    "*": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
 }
